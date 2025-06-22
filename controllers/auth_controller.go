@@ -11,8 +11,6 @@ import (
 	"github.com/golang-jwt/jwt/v5"
 )
 
-var jwtKey = []byte("supersecretkey")
-
 type LoginInput struct {
 	Username string `json:"username"`
 	Password string `json:"password"`
